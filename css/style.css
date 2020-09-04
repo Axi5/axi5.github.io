@@ -1,0 +1,104 @@
+html {
+    background-color: rgb(42, 52, 65);
+}
+
+body {
+    /* background-color: rgb(42, 52, 65); */
+    margin: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 0.5vw;
+    padding: 5vw;
+    line-height: 1.5rem;
+    max-width: 60rem;
+    width: 70vw;
+}
+
+.accent {
+    color: rgb(0, 162, 226);
+}
+
+.details {
+    border-color: rgb(255, 94, 0);
+    color: rgb(255, 94, 0);
+}
+
+.summary {
+    border-color: rgb(255, 0, 212);
+    color: rgb(255, 0, 212);
+}
+
+.experience {
+    border-color: rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+}
+
+.education {
+    border-color: rgb(5, 211, 84);
+    color: rgb(5, 211, 84);
+}
+
+.skills {
+    border-color: rgb(255, 53, 97);
+    color: rgb(255, 53, 97);
+}
+
+div {
+    border-left: 0.25vw solid grey;
+    padding-left: 2vw;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: rgb(88, 88, 88)
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-size: 1rem;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+}
+
+p {
+    color: rgb(88, 88, 88);
+    background-color: white;
+}
+
+img {
+    width: calc(100% + 10vw);
+    border-top-right-radius: 0.4vw;
+    border-top-left-radius: 0.4vw;
+    margin-left: -5vw;
+    margin-top: -5vw;
+    object-fit: cover;
+    object-position: 0 25%;
+    height: 25vw;
+    max-height: 35vh;
+}
+
+@media only screen and (max-width: 90vh) {
+    body {
+        margin: 0vw;
+        border-radius: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    img {
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 40vh) {
+    div {
+        border: 0px;
+        padding: 0px;
+    }
+}
